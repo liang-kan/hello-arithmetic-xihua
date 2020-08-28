@@ -33,6 +33,12 @@ public class SingletonTest_1 {
         System.out.println(instance.hashCode());
         System.out.println(instance3.hashCode());
 
+
+        System.out.println("------------------------------------");
+
+        Runtime runtime = Runtime.getRuntime();
+
+
     }
 }
 
