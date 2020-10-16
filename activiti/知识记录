@@ -5,3 +5,12 @@ Activiti的表都是以ACT_开头。第二部分是表示表的用途的两个�
     ACT_RU_*:'RU'表示runtime。这些运行时的表，包含流程实例，任务，变量，异步任务，等运行中的数据。Avtiviti只在流程实例执行过程中保存这些数据，在流程结束时就会删除这些记录。这样运行时表可以一直很小速度很快。
     ACT_HT_*:'HI'表示history。这些表包含历史数据，比如历史流程实例，变量，任务等等。
     ACT_GE_*:'GE'表示general。通用数据，用于不同场景下。
+
+Activiti的架构说明：
+    ProcessEngineConfiguration类：主要作用是加载activiti.cfg.xml配置文件
+    ProcessEngine类：作用是帮助我们快速得到各个Service接口，并且可以生成activiti的工作环境（25张表）
+    Service接口：可以快速实现数据库25张表的操作
+        RepositoryService：
+        RuntimeService：
+        TaskService：
+        HistoryService：
