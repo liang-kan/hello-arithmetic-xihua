@@ -1,0 +1,22 @@
+链接：
+    https://www.mysqlzh.com/
+    https://www.mysqlzh.com/doc/1.html
+MySQL是一种关联数据库管理系统。
+    关联数据库将数据保存在不同的表中，而不是将所有数据放在一个大的仓库内。这样就增加了速度并提高了灵活性。
+MySQL 3.22限制的表大小为4GB。由于在MySQL 3.23中使用了MyISAM存储引擎，最大表尺寸增加到了65536TB（2567 – 1字节）。由于允许的表尺寸更大，MySQL数据库的最大有效表尺寸通常是由操作系统对文件大小的限制决定的，而不是由MySQL内部限制决定的。
+
+操作系统                    文件大小限制
+
+Linux 2.2-Intel 32-bit      2GB (LFS: 4GB)
+
+Linux 2.4+                  (using ext3 filesystem) 4TB
+
+Solaris 9/10                16TB
+
+NetWare w/NSS filesystem    8TB
+
+win32 w/ FAT/FAT32          2GB/4GB
+
+win32 w/ NTFS               2TB（可能更大）
+
+MacOS X w/ HFS+             2TB
