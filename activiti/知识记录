@@ -14,3 +14,6 @@ Activiti的架构说明：
         RuntimeService：
         TaskService：
         HistoryService：
+
+
+资料链接：https://xuzhongcn.github.io/activiti/activiti.html#header-n380

@@ -52,6 +52,12 @@
             <version>7.0.0.Beta1</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.activiti/activiti-spring-boot-starter-basic -->
+        <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-spring-boot-starter-basic</artifactId>
+            <version>6.0.0</version>
+        </dependency>
         <dependency>
             <groupId>org.activiti.cloud</groupId>
             <artifactId>activiti-cloud-services-api</artifactId>
