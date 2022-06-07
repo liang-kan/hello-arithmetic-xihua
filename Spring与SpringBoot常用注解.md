@@ -10,3 +10,12 @@ public class SpringSecurityJwtGuideApplication {
     }
 }
 我们可以把 @SpringBootApplication看作是 @Configuration、@EnableAutoConfiguration、@ComponentScan 注解的集合。
+
+@Scope
+声明Spring Bean的作用域，使用方法：
+\` @Bean
+    @Scope
+    public Person personService(){
+      return new Person();
+    }
+\`
