@@ -13,9 +13,9 @@ public class SpringSecurityJwtGuideApplication {
 
 @Scope
 声明Spring Bean的作用域，使用方法：
-\` @Bean
+ \ \` @Bean
     @Scope
     public Person personService(){
       return new Person();
     }
-\`
+ \ \`
